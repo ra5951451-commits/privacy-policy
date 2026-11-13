@@ -3,1213 +3,424 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Official Privacy Policy for Arrow Puzzle (com.wisaxis.arrowpuzzle). Transparent data handling, Google AdMob disclosures, COPPA compliance, and user privacy rights.">
+  <meta name="description" content="Privacy Policy for Arrow Puzzle (com.wisaxis.arrowpuzzle).">
   <meta name="robots" content="index, follow">
-  <meta name="theme-color" content="#ffffff">
   <title>Privacy Policy &mdash; Arrow Puzzle</title>
   
   <style>
-    :root {
-      --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
-      --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-
-      /* Professional White & Neutral Minimalist Palette */
-      --bg-page: #f8fafc;
-      --bg-surface: #ffffff;
-      --bg-subtle: #f1f5f9;
-      --bg-accent: #eff6ff;
-      --bg-highlight: #f8fafc;
-
-      --border-color: #e2e8f0;
-      --border-subtle: #f1f5f9;
-      --border-strong: #cbd5e1;
-      --border-accent: #bfdbfe;
-
-      --text-main: #0f172a;
-      --text-body: #334155;
-      --text-muted: #64748b;
-      --text-subtle: #94a3b8;
-
-      --primary: #2563eb;
-      --primary-hover: #1d4ed8;
-      --primary-subtle: #eff6ff;
-      --primary-text: #1d4ed8;
-
-      --success: #059669;
-      --success-bg: #ecfdf5;
-      --success-border: #a7f3d0;
-      --success-text: #065f46;
-
-      --danger-subtle: #fef2f2;
-      --danger-border: #fecaca;
-      --danger-text: #991b1b;
-
-      --shadow-sm: 0 1px 2px 0 rgba(15, 23, 42, 0.04);
-      --shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.05), 0 2px 4px -2px rgba(15, 23, 42, 0.04);
-      --shadow-lg: 0 10px 25px -4px rgba(15, 23, 42, 0.06), 0 4px 6px -2px rgba(15, 23, 42, 0.03);
-
-      --radius-sm: 6px;
-      --radius-md: 10px;
-      --radius-lg: 14px;
-      --radius-xl: 18px;
-      --radius-pill: 9999px;
-    }
-
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
     }
 
-    html {
-      scroll-behavior: smooth;
-      background-color: var(--bg-page);
-    }
-
     body {
-      font-family: var(--font-sans);
-      background-color: var(--bg-page);
-      color: var(--text-body);
-      line-height: 1.65;
-      padding: 2.5rem 1rem;
+      background-color: #ffffff;
+      color: #1a1a1a;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 1rem;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px 60px 20px;
+      overflow-wrap: break-word;
       -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
-
-    .wrapper {
-      max-width: 860px;
-      margin: 0 auto;
-    }
-
-    /* Main Document Sheet */
-    .document-card {
-      background: var(--bg-surface);
-      border: 1px solid var(--border-color);
-      border-radius: var(--radius-xl);
-      padding: 3.5rem 3rem;
-      box-shadow: var(--shadow-lg);
-    }
-
-    @media (max-width: 768px) {
-      body {
-        padding: 1rem 0.5rem;
-      }
-      .document-card {
-        padding: 2rem 1.25rem;
-        border-radius: var(--radius-lg);
-      }
-    }
-
-    /* Header Styling */
-    header {
-      border-bottom: 1px solid var(--border-color);
-      padding-bottom: 2rem;
-      margin-bottom: 2.25rem;
-    }
-
-    .top-toolbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 1rem;
-      margin-bottom: 1.5rem;
-    }
-
-    .brand-pill {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.6rem;
-      background: var(--bg-subtle);
-      border: 1px solid var(--border-color);
-      padding: 0.35rem 0.85rem;
-      border-radius: var(--radius-pill);
-      font-size: 0.85rem;
-      font-weight: 600;
-      color: var(--text-main);
-    }
-
-    .brand-icon {
-      width: 22px;
-      height: 22px;
-      background: #dc2626;
-      border-radius: 6px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      color: #ffffff;
-      font-weight: 800;
-      font-size: 0.75rem;
-    }
-
-    .status-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.4rem;
-      background: var(--success-bg);
-      color: var(--success-text);
-      border: 1px solid var(--success-border);
-      font-size: 0.82rem;
-      font-weight: 600;
-      padding: 0.25rem 0.75rem;
-      border-radius: var(--radius-pill);
-    }
-
-    .status-dot {
-      width: 7px;
-      height: 7px;
-      background: var(--success);
-      border-radius: 50%;
-    }
-
-    .actions-bar {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-
-    .btn-action {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.4rem;
-      background: var(--bg-surface);
-      border: 1px solid var(--border-color);
-      color: var(--text-body);
-      padding: 0.4rem 0.85rem;
-      border-radius: var(--radius-md);
-      font-size: 0.85rem;
-      font-weight: 500;
-      cursor: pointer;
-      text-decoration: none;
-      transition: all 0.15s ease-in-out;
-      box-shadow: var(--shadow-sm);
-    }
-
-    .btn-action:hover {
-      background: var(--bg-subtle);
-      border-color: var(--border-strong);
-      color: var(--text-main);
-    }
-
-    .btn-action svg {
-      width: 15px;
-      height: 15px;
-      fill: none;
-      stroke: currentColor;
-      stroke-width: 2;
-      stroke-linecap: round;
-      stroke-linejoin: round;
     }
 
     h1 {
-      font-size: clamp(2rem, 1.6rem + 1.8vw, 2.75rem);
-      font-weight: 800;
-      letter-spacing: -0.03em;
-      color: var(--text-main);
-      margin-bottom: 0.75rem;
-      line-height: 1.2;
-      text-wrap: balance;
-    }
-
-    .meta-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 0.75rem;
-      margin-top: 1.25rem;
-      padding: 1rem;
-      background: var(--bg-subtle);
-      border: 1px solid var(--border-color);
-      border-radius: var(--radius-lg);
-      font-size: 0.88rem;
-    }
-
-    .meta-item {
-      display: flex;
-      flex-direction: column;
-      gap: 0.15rem;
-    }
-
-    .meta-label {
-      color: var(--text-muted);
-      font-size: 0.76rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
+      font-size: 2rem;
       font-weight: 700;
-    }
-
-    .meta-value {
-      color: var(--text-main);
-      font-weight: 600;
-    }
-
-    code {
-      background: #e2e8f0;
-      color: var(--text-main);
-      padding: 0.15rem 0.4rem;
-      border-radius: var(--radius-sm);
-      font-size: 0.88em;
-      font-family: var(--font-mono);
-      font-weight: 600;
-    }
-
-    /* Executive Privacy Summary */
-    .summary-card {
-      background: var(--bg-accent);
-      border: 1px solid var(--border-accent);
-      border-radius: var(--radius-lg);
-      padding: 1.5rem 1.75rem;
-      margin-bottom: 2.5rem;
-    }
-
-    .summary-card-header {
-      display: flex;
-      align-items: center;
-      gap: 0.6rem;
-      margin-bottom: 0.65rem;
-    }
-
-    .summary-card-header h2 {
-      font-size: 1.05rem;
-      font-weight: 700;
-      color: var(--primary-text);
-      border-bottom: none;
-      padding-bottom: 0;
-      margin-bottom: 0;
-    }
-
-    .summary-card-header svg {
-      width: 20px;
-      height: 20px;
-      stroke: var(--primary);
-      stroke-width: 2;
-      fill: none;
-    }
-
-    .summary-card p {
-      color: var(--text-body);
-      font-size: 0.95rem;
-      line-height: 1.6;
-      margin-bottom: 0;
-      text-wrap: pretty;
-    }
-
-    /* Table of Contents */
-    .toc-card {
-      background: var(--bg-surface);
-      border: 1px solid var(--border-color);
-      border-radius: var(--radius-lg);
-      padding: 1.35rem 1.5rem;
-      margin-bottom: 2.5rem;
-      box-shadow: var(--shadow-sm);
-    }
-
-    .toc-title {
-      font-size: 0.8rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      color: var(--text-muted);
-      margin-bottom: 0.85rem;
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
-    }
-
-    .toc-list {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 0.45rem 1.5rem;
-      list-style: none;
-      padding: 0;
-    }
-
-    .toc-list a {
-      color: var(--primary);
-      text-decoration: none;
-      font-size: 0.91rem;
-      font-weight: 500;
-      display: inline-flex;
-      align-items: center;
-      gap: 0.35rem;
-      transition: color 0.15s ease, transform 0.15s ease;
-    }
-
-    .toc-list a:hover {
-      color: var(--primary-hover);
-      text-decoration: underline;
-    }
-
-    /* Policy Content Sections */
-    section {
-      margin-bottom: 2.75rem;
-      scroll-margin-top: 1.5rem;
+      color: #111111;
+      margin-bottom: 1rem;
+      line-height: 1.25;
     }
 
     h2 {
-      font-size: 1.35rem;
+      font-size: 1.3rem;
       font-weight: 700;
-      letter-spacing: -0.02em;
-      color: var(--text-main);
-      margin-bottom: 1rem;
-      padding-bottom: 0.5rem;
-      border-bottom: 1px solid var(--border-color);
-      display: flex;
-      align-items: center;
-      gap: 0.6rem;
-      text-wrap: balance;
-    }
-
-    h2 .sec-index {
-      background: var(--bg-subtle);
-      color: var(--primary);
-      border: 1px solid var(--border-color);
-      width: 28px;
-      height: 28px;
-      border-radius: 50%;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 0.82rem;
-      font-weight: 800;
-      flex-shrink: 0;
+      color: #111111;
+      margin-top: 2.25rem;
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.35rem;
+      border-bottom: 1px solid #e5e5e5;
     }
 
     h3 {
       font-size: 1.05rem;
-      font-weight: 700;
-      color: var(--text-main);
-      margin-top: 1.5rem;
-      margin-bottom: 0.6rem;
-      text-wrap: balance;
-    }
-
-    p {
-      color: var(--text-body);
-      font-size: 0.97rem;
-      margin-bottom: 1rem;
-      line-height: 1.7;
-      text-wrap: pretty;
-      overflow-wrap: break-word;
-    }
-
-    ul, ol {
-      color: var(--text-body);
-      padding-left: 1.35rem;
-      margin-bottom: 1.15rem;
-      font-size: 0.97rem;
-    }
-
-    li {
-      margin-bottom: 0.55rem;
-      line-height: 1.65;
-    }
-
-    a {
-      color: var(--primary);
-      text-decoration: none;
-      font-weight: 500;
-      transition: color 0.15s ease;
-    }
-
-    a:hover {
-      color: var(--primary-hover);
-      text-decoration: underline;
-    }
-
-    /* Non-Collection Grid */
-    .not-collected-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 0.85rem;
-      margin: 1.25rem 0;
-    }
-
-    .not-collected-item {
-      background: var(--bg-surface);
-      border: 1px solid var(--border-color);
-      border-radius: var(--radius-md);
-      padding: 1rem 1.15rem;
-      display: flex;
-      align-items: flex-start;
-      gap: 0.75rem;
-      box-shadow: var(--shadow-sm);
-    }
-
-    .item-icon-no {
-      background: var(--danger-subtle);
-      color: var(--danger-text);
-      border: 1px solid var(--danger-border);
-      width: 24px;
-      height: 24px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 800;
-      font-size: 0.8rem;
-      flex-shrink: 0;
-      margin-top: 2px;
-    }
-
-    .item-text strong {
-      color: var(--text-main);
-      display: block;
-      font-size: 0.93rem;
-      margin-bottom: 0.2rem;
-    }
-
-    .item-text span {
-      color: var(--text-muted);
-      font-size: 0.87rem;
-      line-height: 1.5;
-      display: block;
-    }
-
-    /* SDK Disclosures Cards */
-    .sdk-card {
-      background: var(--bg-surface);
-      border: 1px solid var(--border-color);
-      border-left: 4px solid var(--primary);
-      border-radius: var(--radius-md);
-      padding: 1.35rem 1.5rem;
-      margin: 1.25rem 0;
-      box-shadow: var(--shadow-sm);
-    }
-
-    .sdk-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 0.5rem;
+      font-weight: 600;
+      color: #222222;
+      margin-top: 1.25rem;
       margin-bottom: 0.5rem;
     }
 
-    .sdk-title {
-      font-weight: 700;
-      color: var(--text-main);
-      font-size: 1.05rem;
+    p {
+      margin-bottom: 1rem;
     }
 
-    .sdk-vendor-pill {
-      background: var(--bg-subtle);
-      border: 1px solid var(--border-color);
-      color: var(--text-muted);
-      font-size: 0.78rem;
-      font-weight: 600;
-      padding: 0.15rem 0.6rem;
-      border-radius: var(--radius-pill);
+    .meta-info {
+      color: #444444;
+      font-size: 0.95rem;
+      margin-bottom: 1.5rem;
+      line-height: 1.7;
     }
 
-    /* Clean Modern Data Safety Table */
-    .table-container {
-      overflow-x: auto;
-      margin: 1.5rem 0;
-      border-radius: var(--radius-md);
-      border: 1px solid var(--border-color);
-      box-shadow: var(--shadow-sm);
+    .meta-info strong {
+      color: #111111;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #e5e5e5;
+      margin: 1.5rem 0 2rem 0;
+    }
+
+    .summary-box {
+      background: #f9f9f9;
+      border: 1px solid #e5e5e5;
+      padding: 1rem 1.25rem;
+      margin-bottom: 2rem;
+      font-size: 0.95rem;
+    }
+
+    .summary-box strong {
+      color: #111111;
+    }
+
+    .toc {
+      margin-bottom: 2rem;
+      padding-left: 20px;
+    }
+
+    .toc li {
+      margin-bottom: 0.35rem;
+    }
+
+    ul, ol {
+      padding-left: 24px;
+      margin-bottom: 1rem;
+    }
+
+    li {
+      margin-bottom: 0.4rem;
+    }
+
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.9em;
+      background: #f3f3f3;
+      padding: 0.15rem 0.35rem;
+      border-radius: 3px;
+    }
+
+    a {
+      color: #0969da;
+      text-decoration: underline;
+    }
+
+    a:hover {
+      color: #0550ae;
     }
 
     table {
       width: 100%;
       border-collapse: collapse;
+      margin: 1.25rem 0;
       font-size: 0.92rem;
+    }
+
+    th, td {
+      border: 1px solid #dddddd;
+      padding: 9px 12px;
       text-align: left;
-      background: var(--bg-surface);
+      vertical-align: top;
     }
 
     th {
-      background: var(--bg-subtle);
-      color: var(--text-main);
-      font-weight: 700;
-      padding: 0.95rem 1rem;
-      border-bottom: 1px solid var(--border-color);
-      text-wrap: balance;
-    }
-
-    td {
-      padding: 0.95rem 1rem;
-      border-bottom: 1px solid var(--border-subtle);
-      color: var(--text-body);
-      vertical-align: middle;
-    }
-
-    tr:last-child td {
-      border-bottom: none;
-    }
-
-    tr:hover td {
-      background: rgba(248, 250, 252, 0.7);
-    }
-
-    .badge-pill {
-      display: inline-block;
-      padding: 0.2rem 0.65rem;
-      border-radius: var(--radius-pill);
-      font-size: 0.8rem;
+      background-color: #f6f8fa;
       font-weight: 600;
-      line-height: 1.3;
+      color: #111111;
     }
 
-    .badge-no {
-      background: var(--success-bg);
-      color: var(--success-text);
-      border: 1px solid var(--success-border);
+    .table-wrapper {
+      overflow-x: auto;
+      margin-bottom: 1rem;
     }
 
-    .badge-yes {
-      background: var(--bg-accent);
-      color: var(--primary-text);
-      border: 1px solid var(--border-accent);
-    }
-
-    .badge-local {
-      background: #f3e8ff;
-      color: #6b21a8;
-      border: 1px solid #e9d5ff;
-    }
-
-    /* Step Guides */
-    .instruction-steps {
-      background: var(--bg-subtle);
-      border: 1px solid var(--border-color);
-      border-radius: var(--radius-md);
-      padding: 1.25rem 1.5rem;
-      margin: 1rem 0 1.25rem;
-    }
-
-    .instruction-steps ol {
-      margin-bottom: 0;
-      padding-left: 1.2rem;
-    }
-
-    .instruction-steps li {
-      margin-bottom: 0.4rem;
-    }
-
-    .instruction-steps li:last-child {
-      margin-bottom: 0;
-    }
-
-    /* Contact Card */
-    .contact-card {
-      background: var(--bg-surface);
-      border: 1px solid var(--border-color);
-      border-radius: var(--radius-lg);
-      padding: 1.75rem;
-      margin-top: 1.25rem;
-      box-shadow: var(--shadow-sm);
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 1.25rem;
-    }
-
-    .contact-row {
-      display: flex;
-      flex-direction: column;
-      gap: 0.2rem;
-    }
-
-    .contact-label {
-      font-size: 0.78rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      font-weight: 700;
-      color: var(--text-muted);
-    }
-
-    .contact-value {
-      font-size: 0.95rem;
-      color: var(--text-main);
-      font-weight: 600;
-    }
-
-    /* Footer */
     footer {
-      border-top: 1px solid var(--border-color);
-      margin-top: 3.5rem;
-      padding-top: 2rem;
-      text-align: center;
-      color: var(--text-muted);
-      font-size: 0.88rem;
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #e5e5e5;
+      font-size: 0.9rem;
+      color: #666666;
     }
 
-    .footer-links {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 1.5rem;
-      margin-top: 1rem;
-    }
-
-    .footer-links a {
-      color: var(--text-muted);
-      font-size: 0.88rem;
-    }
-
-    .footer-links a:hover {
-      color: var(--text-main);
-    }
-
-    /* Back to top button */
-    .btn-top {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.35rem;
-      color: var(--text-muted);
-      cursor: pointer;
-      font-size: 0.85rem;
-      background: none;
-      border: none;
-    }
-
-    .btn-top:hover {
-      color: var(--primary);
-    }
-
-    /* Toast Notification */
-    #toast {
-      position: fixed;
-      bottom: 2rem;
-      right: 2rem;
-      background: var(--text-main);
-      color: #ffffff;
-      padding: 0.75rem 1.25rem;
-      border-radius: var(--radius-md);
-      font-size: 0.88rem;
-      font-weight: 500;
-      box-shadow: var(--shadow-lg);
-      opacity: 0;
-      pointer-events: none;
-      transform: translateY(10px);
-      transition: all 0.25s ease-in-out;
-      z-index: 1000;
-    }
-
-    #toast.show {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    /* Accessible Focus States */
-    a:focus-visible,
-    button:focus-visible {
-      outline: 2px solid var(--primary);
-      outline-offset: 3px;
-    }
-
-    /* High Quality Print Stylesheet */
     @media print {
       body {
-        background: #ffffff !important;
-        color: #000000 !important;
-        padding: 0 !important;
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
       }
-      .document-card {
-        border: none !important;
-        box-shadow: none !important;
-        padding: 0 !important;
-        background: transparent !important;
-      }
-      .top-toolbar,
-      .toc-card,
-      footer,
-      #toast,
-      .btn-action {
-        display: none !important;
-      }
-      h1, h2, h3 {
-        color: #000000 !important;
-      }
-      p, li, td, th {
-        color: #111111 !important;
-      }
-      table, th, td, .sdk-card, .not-collected-item, .contact-card {
-        border-color: #cccccc !important;
-      }
-      section {
-        page-break-inside: avoid;
-        break-inside: avoid;
+      a {
+        text-decoration: none;
+        color: #000000;
       }
     }
   </style>
 </head>
 <body>
 
-<div class="wrapper">
-  <main class="document-card">
-    
-    <!-- Header -->
-    <header>
-      <div class="top-toolbar">
-        <div style="display: flex; align-items: center; gap: 0.65rem; flex-wrap: wrap;">
-          <div class="brand-pill">
-            <span class="brand-icon">&nearr;</span>
-            <span>Arrow Puzzle</span>
-          </div>
-          <span class="status-badge">
-            <span class="status-dot"></span>
-            Verified &amp; In Effect
-          </span>
-        </div>
+  <h1>Privacy Policy</h1>
 
-        <div class="actions-bar">
-          <button class="btn-action" onclick="copyPolicyLink()" aria-label="Copy policy link">
-            <svg viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
-            <span>Copy Link</span>
-          </button>
-          <button class="btn-action" onclick="window.print()" aria-label="Print or save document as PDF">
-            <svg viewBox="0 0 24 24"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
-            <span>Print / PDF</span>
-          </button>
-        </div>
-      </div>
+  <div class="meta-info">
+    <strong>Application:</strong> Arrow Puzzle<br>
+    <strong>Package Identifier:</strong> <code>com.wisaxis.arrowpuzzle</code><br>
+    <strong>Developer / Publisher:</strong> Wisaxis<br>
+    <strong>Effective Date:</strong> November 13, 2026
+  </div>
 
-      <h1>Privacy Policy</h1>
-      <p style="color: var(--text-muted); font-size: 1.05rem; margin-bottom: 0;">
-        Clear, comprehensive disclosure of how data is protected, stored, and processed when playing <strong>Arrow Puzzle</strong>.
-      </p>
+  <hr>
 
-      <div class="meta-grid">
-        <div class="meta-item">
-          <span class="meta-label">Application</span>
-          <span class="meta-value">Arrow Puzzle</span>
-        </div>
-        <div class="meta-item">
-          <span class="meta-label">Package Identifier</span>
-          <span class="meta-value"><code>com.wisaxis.arrowpuzzle</code></span>
-        </div>
-        <div class="meta-item">
-          <span class="meta-label">Publisher &amp; Developer</span>
-          <span class="meta-value">Wisaxis</span>
-        </div>
-        <div class="meta-item">
-          <span class="meta-label">Effective Date</span>
-          <span class="meta-value"><time datetime="2026-11-13">November 13, 2026</time></span>
-        </div>
-      </div>
-    </header>
+  <div class="summary-box">
+    <strong>Summary:</strong> Arrow Puzzle does not collect personal identifiers such as your real name, email, phone number, contacts, or GPS location. No account or registration is required. All level progress and hints are stored directly on your device. Family-safe advertisements are provided by Google AdMob in compliance with Google Play Policies.
+  </div>
 
-    <!-- Executive Privacy Summary -->
-    <div class="summary-card">
-      <div class="summary-card-header">
-        <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-        <h2>Executive Privacy Summary</h2>
-      </div>
-      <p>
-        <strong>Arrow Puzzle</strong> is built with strict privacy-by-design standards. 
-        We do <strong>not</strong> require accounts or registrations, and we do <strong>not</strong> collect your real name, email, phone number, address book, or GPS location. 
-        All puzzle levels, stars, and hint balances are stored <strong>strictly on your local device</strong>. 
-        We serve family-safe advertisements through <strong>Google AdMob</strong> in full compliance with the Google Play Developer Program Policies, GDPR, and COPPA regulations.
-      </p>
-    </div>
+  <h3>Table of Contents</h3>
+  <ol class="toc">
+    <li><a href="#section-1">Introduction &amp; Scope</a></li>
+    <li><a href="#section-2">Information We Do NOT Collect</a></li>
+    <li><a href="#section-3">Information We Collect &amp; How We Use It</a></li>
+    <li><a href="#section-4">Google AdMob &amp; Third-Party SDK Disclosures</a></li>
+    <li><a href="#section-5">Google Play Data Safety Disclosures</a></li>
+    <li><a href="#section-6">Children's Privacy (COPPA &amp; GDPR-K Compliance)</a></li>
+    <li><a href="#section-7">Data Retention &amp; Data Deletion Rights</a></li>
+    <li><a href="#section-8">European Union &amp; UK Privacy Rights (GDPR)</a></li>
+    <li><a href="#section-9">California Consumer Privacy Rights (CCPA / CPRA)</a></li>
+    <li><a href="#section-10">Changes to This Privacy Policy</a></li>
+    <li><a href="#section-11">Contact Us &amp; Data Requests</a></li>
+  </ol>
 
-    <!-- Table of Contents -->
-    <nav class="toc-card" aria-label="Table of contents">
-      <div class="toc-title">Table of Contents</div>
-      <ul class="toc-list">
-        <li><a href="#section-1">&rarr; 1. Introduction &amp; Scope</a></li>
-        <li><a href="#section-2">&rarr; 2. Information We Do NOT Collect</a></li>
-        <li><a href="#section-3">&rarr; 3. Information We Collect &amp; Why</a></li>
-        <li><a href="#section-4">&rarr; 4. Google AdMob &amp; Third-Party SDKs</a></li>
-        <li><a href="#section-5">&rarr; 5. Google Play Data Safety Disclosures</a></li>
-        <li><a href="#section-6">&rarr; 6. Children's Privacy (COPPA &amp; GDPR-K)</a></li>
-        <li><a href="#section-7">&rarr; 7. Data Retention &amp; Deletion Rights</a></li>
-        <li><a href="#section-8">&rarr; 8. European Union &amp; UK Rights (GDPR)</a></li>
-        <li><a href="#section-9">&rarr; 9. California Privacy Rights (CCPA / CPRA)</a></li>
-        <li><a href="#section-10">&rarr; 10. Changes to This Privacy Policy</a></li>
-        <li><a href="#section-11">&rarr; 11. Contact &amp; Data Protection Officer</a></li>
-      </ul>
-    </nav>
+  <!-- Section 1 -->
+  <h2 id="section-1">1. Introduction &amp; Scope</h2>
+  <p>
+    This Privacy Policy explains how information is handled when you download, install, and play <strong>Arrow Puzzle</strong> on Android devices. The Game is published by <strong>Wisaxis</strong> ("we", "our", or "us").
+  </p>
+  <p>
+    By installing or playing Arrow Puzzle, you agree to the data handling practices described in this policy. If you do not agree with any part of this policy, please do not install or use the Game.
+  </p>
 
-    <!-- Section 1 -->
-    <section id="section-1">
-      <h2><span class="sec-index">1</span> Introduction &amp; Scope</h2>
-      <p>
-        Welcome to <strong>Arrow Puzzle</strong> (referred to in this document as "the Game", "we", "our", or "us"), published and maintained by <strong>Wisaxis</strong>. 
-        This Privacy Policy explains how information is managed when you install, access, or play Arrow Puzzle on Android devices.
-      </p>
-      <p>
-        We believe that casual mobile gaming should be enjoyable without sacrificing your digital privacy. 
-        By downloading, installing, or playing Arrow Puzzle, you acknowledge and agree to the data handling practices described in this policy. 
-        If you disagree with any part of this policy, please refrain from installing or playing the Game.
-      </p>
-    </section>
+  <!-- Section 2 -->
+  <h2 id="section-2">2. Information We Do NOT Collect</h2>
+  <p>
+    The Game is designed to function with minimal permissions and does not collect or solicit any of the following:
+  </p>
+  <ul>
+    <li><strong>No Personal Identifiers:</strong> We do not ask for or store your name, email address, home address, or telephone number.</li>
+    <li><strong>No Account Registration:</strong> No account signup, password, or third-party login (such as Facebook or Google Sign-In) is required.</li>
+    <li><strong>No Precise Location Data:</strong> We do not access or record your device's GPS or precise location.</li>
+    <li><strong>No Device Sensors or Media Access:</strong> We do not access your camera, microphone, photo gallery, media storage, or contacts.</li>
+    <li><strong>No Biometric Data:</strong> No fingerprint, facial recognition, or voice data is requested or stored.</li>
+    <li><strong>No Financial Data:</strong> We do not collect or store your payment details or credit card information. All transactions are handled directly through Google Play Billing.</li>
+  </ul>
 
-    <!-- Section 2 -->
-    <section id="section-2">
-      <h2><span class="sec-index">2</span> Information We Do NOT Collect</h2>
-      <p>
-        To ensure total privacy and an uninterrupted offline-capable puzzle experience, the Game does <strong>not</strong> solicit, harvest, or transmit any of the following sensitive personal data:
-      </p>
-      
-      <div class="not-collected-grid">
-        <div class="not-collected-item">
-          <div class="item-icon-no">&times;</div>
-          <div class="item-text">
-            <strong>No Personal Identifiers</strong>
-            <span>We never request or store your legal name, home address, personal email, or phone number.</span>
-          </div>
-        </div>
+  <!-- Section 3 -->
+  <h2 id="section-3">3. Information We Collect &amp; How We Use It</h2>
+  
+  <h3>A. Local Device Save Data</h3>
+  <p>
+    Your game progress (completed levels, star ratings, unlocked chapters, hint balances, and sound preferences) is saved <strong>exclusively on your local device</strong>.
+  </p>
+  <ul>
+    <li>Save data stays within Android's private app sandbox and is never uploaded to remote servers operated by us.</li>
+    <li>Save files include an HMAC integrity check to safeguard your progress from corruption.</li>
+  </ul>
 
-        <div class="not-collected-item">
-          <div class="item-icon-no">&times;</div>
-          <div class="item-text">
-            <strong>No Account Credentials</strong>
-            <span>No account creation, social login (Facebook, Google Sign-In), or password setup is required.</span>
-          </div>
-        </div>
+  <h3>B. Anonymous Technical Diagnostics &amp; Crash Telemetry</h3>
+  <p>
+    Non-personally identifiable diagnostic information may be gathered automatically through Google Play Services when the application runs:
+  </p>
+  <ul>
+    <li>Device model, manufacturer, and screen resolution.</li>
+    <li>Android OS version.</li>
+    <li>Crash logs, ANR (Application Not Responding) incident reports, and general performance telemetry.</li>
+  </ul>
+  <p>
+    This information is used strictly to diagnose crashes, fix bugs, and ensure proper performance on various Android devices.
+  </p>
 
-        <div class="not-collected-item">
-          <div class="item-icon-no">&times;</div>
-          <div class="item-text">
-            <strong>No Precise Geolocation</strong>
-            <span>We never query, monitor, or access your device's GPS hardware or precise location sensors.</span>
-          </div>
-        </div>
+  <!-- Section 4 -->
+  <h2 id="section-4">4. Google AdMob &amp; Third-Party SDK Disclosures</h2>
+  <p>
+    Arrow Puzzle is supported by advertisements through <strong>Google AdMob</strong>. AdMob may serve banner ads, app open ads, and optional rewarded video ads (such as watching an ad to receive a hint).
+  </p>
 
-        <div class="not-collected-item">
-          <div class="item-icon-no">&times;</div>
-          <div class="item-text">
-            <strong>No Hardware Sensor Access</strong>
-            <span>We do not request access to your device camera, microphone, gallery, or contact list.</span>
-          </div>
-        </div>
+  <h3>Google AdMob (Google LLC)</h3>
+  <p>
+    Google AdMob may process device-level identifiers to serve, measure, and protect advertisements:
+  </p>
+  <ul>
+    <li><strong>Google Advertising ID (GAID / AAID):</strong> Used for frequency capping, ad measurement, and fraud prevention.</li>
+    <li><strong>Approximate Geolocation:</strong> Used to display ads relevant to your general country or language region (derived from IP address, non-precise).</li>
+    <li><strong>Ad Interaction Data:</strong> Ad views, clicks, and video completion rates.</li>
+  </ul>
+  <p>
+    <strong>EEA &amp; UK Consent:</strong> For players in the European Economic Area (EEA) and the UK, we use the Google User Messaging Platform (UMP) to present a consent dialog for personalized or non-personalized ads in accordance with applicable laws.
+  </p>
+  <p>
+    For more details on how Google handles data, please see:
+  </p>
+  <ul>
+    <li><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">How Google uses information from sites or apps that use our services</a></li>
+    <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+  </ul>
 
-        <div class="not-collected-item">
-          <div class="item-icon-no">&times;</div>
-          <div class="item-text">
-            <strong>No Biometric Information</strong>
-            <span>No fingerprint, facial scan, or voice recognition data is ever requested or processed.</span>
-          </div>
-        </div>
+  <h3>Google Play In-App Billing (Google LLC)</h3>
+  <p>
+    Optional in-game purchases (such as "Arrow Puzzle Pro" ad removal or hint packs) are processed directly by the official Google Play In-App Billing API. We never receive or store your payment details. Transactions are governed by the <a href="https://play.google.com/intl/en_us/about/play-terms/" target="_blank" rel="noopener">Google Play Terms of Service</a>.
+  </p>
 
-        <div class="not-collected-item">
-          <div class="item-icon-no">&times;</div>
-          <div class="item-text">
-            <strong>No Financial Records</strong>
-            <span>All in-app purchases are executed through Google Play Billing; we never receive your card or bank credentials.</span>
-          </div>
-        </div>
-      </div>
-    </section>
+  <h3>Unity Engine (Unity Technologies)</h3>
+  <p>
+    The game is built using the Unity Engine. Unity may process basic anonymous device hardware telemetry (graphics API, device specifications) to support rendering. For more details, refer to the <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">Unity Privacy Policy</a>.
+  </p>
 
-    <!-- Section 3 -->
-    <section id="section-3">
-      <h2><span class="sec-index">3</span> Information We Collect &amp; How We Use It</h2>
-      
-      <h3>A. Local Device Game Save Data</h3>
-      <p>
-        Your gameplay progress (completed levels, star ratings, unlocked puzzle chapters, remaining hint balances, audio settings, and optional Pro status) is stored <strong>strictly on your physical device</strong> using encrypted local app storage.
-      </p>
-      <ul>
-        <li>This data remains inside the private Android application sandbox and is not transmitted to external game servers.</li>
-        <li>Save records include an HMAC integrity verification check to prevent accidental corruption and safeguard your level accomplishments.</li>
-      </ul>
+  <!-- Section 5 -->
+  <h2 id="section-5">5. Google Play Data Safety Disclosures</h2>
+  <p>
+    In compliance with Google Play's Data Safety requirements, the table below summarizes our data handling practices:
+  </p>
 
-      <h3>B. Anonymous Technical Diagnostics &amp; Crash Telemetry</h3>
-      <p>
-        When you launch or play the Game, non-personally identifiable technical telemetry may be gathered automatically through official Google Play Services to ensure application stability:
-      </p>
-      <ul>
-        <li>Device model, manufacturer, and screen resolution.</li>
-        <li>Operating system version (e.g., Android 12, 13, 14, or 15).</li>
-        <li>Aggregated, anonymous crash stack traces, ANR (Application Not Responding) incident logs, and rendering performance metrics.</li>
-      </ul>
-      <p>
-        <em>Purpose:</em> This information is utilized strictly to isolate crashes, optimize frame rates, and guarantee smooth 60fps puzzle rendering across diverse hardware configurations.
-      </p>
-    </section>
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>Data Category</th>
+          <th>Collected?</th>
+          <th>Shared with 3rd Parties?</th>
+          <th>Purpose</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Personal Identifiers</strong> (Name, Email, Phone)</td>
+          <td>No</td>
+          <td>No</td>
+          <td>Not Collected</td>
+        </tr>
+        <tr>
+          <td><strong>Financial Information</strong> (Card or Bank details)</td>
+          <td>No</td>
+          <td>No</td>
+          <td>Handled directly by Google Play</td>
+        </tr>
+        <tr>
+          <td><strong>Precise Location</strong> (GPS)</td>
+          <td>No</td>
+          <td>No</td>
+          <td>Not Collected</td>
+        </tr>
+        <tr>
+          <td><strong>Device Identifiers</strong> (Advertising ID / GAID)</td>
+          <td>Yes</td>
+          <td>Yes (Google AdMob)</td>
+          <td>Advertising, analytics &amp; fraud prevention</td>
+        </tr>
+        <tr>
+          <td><strong>App Diagnostics</strong> (Crash logs, ANRs)</td>
+          <td>Yes</td>
+          <td>Yes (Google Play)</td>
+          <td>Crash diagnosis &amp; bug fixing</td>
+        </tr>
+        <tr>
+          <td><strong>Gameplay Actions</strong> (Level progress, stars, hints)</td>
+          <td>Local Only</td>
+          <td>No</td>
+          <td>Saved on-device for game functionality</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
-    <!-- Section 4 -->
-    <section id="section-4">
-      <h2><span class="sec-index">4</span> Google AdMob &amp; Third-Party SDK Disclosures</h2>
-      <p>
-        Arrow Puzzle is supported by advertising delivered via <strong>Google AdMob</strong>. 
-        AdMob displays banner ads, app open ads, and optional rewarded video ads (such as watching a short sponsor message to earn an extra in-game hint).
-      </p>
+  <ul>
+    <li><strong>Encryption in Transit:</strong> All data transmissions between your device and Google services use standard HTTPS / TLS encryption.</li>
+    <li><strong>Data Deletion:</strong> You can erase all game data at any time via your device settings.</li>
+  </ul>
 
-      <div class="sdk-card">
-        <div class="sdk-header">
-          <span class="sdk-title">Google AdMob</span>
-          <span class="sdk-vendor-pill">Google LLC</span>
-        </div>
-        <p>
-          Google AdMob may collect and process device-level identifiers to serve, measure, and protect advertisements:
-        </p>
-        <ul>
-          <li><strong>Google Advertising ID (GAID / AAID):</strong> Used for frequency capping (preventing repetitive ads), fraud prevention, and ad performance attribution.</li>
-          <li><strong>Approximate IP-Based Geolocation:</strong> Used to display ads in your appropriate country or language region (non-precise general location).</li>
-          <li><strong>Ad Interaction Telemetry:</strong> Ad impression counts, click events, and video completion rates.</li>
-        </ul>
-        <p>
-          <strong>European Economic Area (EEA) &amp; UK Consent:</strong><br>
-          For players residing in the EEA or the UK, we implement the <strong>Google User Messaging Platform (UMP)</strong> SDK. 
-          When required by privacy regulations, a consent prompt allows you to choose between personalized and non-personalized advertisements before any ad request is initiated.
-        </p>
-        <p>
-          For comprehensive details on how Google processes advertising data, please review:<br>
-          &bull; <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">How Google uses information from sites or apps that use our services</a><br>
-          &bull; <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>
-        </p>
-      </div>
+  <!-- Section 6 -->
+  <h2 id="section-6">6. Children's Privacy (COPPA &amp; GDPR-K Compliance)</h2>
+  <p>
+    Arrow Puzzle is a casual, family-friendly puzzle game. We do not knowingly collect personal information from children under the age of 13 (or under 16 in the European Union).
+  </p>
+  <ul>
+    <li>Advertisements served through Google AdMob comply with Google Play Families Policy guidelines and content filtering standards.</li>
+    <li>If a parent or guardian believes their child has submitted personal information to us, please contact us at <a href="mailto:support@arrowpuzzle.com">support@arrowpuzzle.com</a> and we will delete it promptly.</li>
+  </ul>
 
-      <div class="sdk-card">
-        <div class="sdk-header">
-          <span class="sdk-title">Google Play In-App Billing</span>
-          <span class="sdk-vendor-pill">Google LLC</span>
-        </div>
-        <p>
-          If you choose to purchase the optional "Arrow Puzzle Pro" (ad-removal) upgrade or in-game hint bundles, the transaction is processed securely through the official <strong>Google Play In-App Billing API</strong>.
-        </p>
-        <ul>
-          <li>We never receive, inspect, or retain your credit or debit card numbers, bank information, or billing address.</li>
-          <li>All payment processing is governed by the <a href="https://play.google.com/intl/en_us/about/play-terms/" target="_blank" rel="noopener">Google Play Terms of Service</a>.</li>
-        </ul>
-      </div>
+  <!-- Section 7 -->
+  <h2 id="section-7">7. Data Retention &amp; Data Deletion Rights</h2>
+  <p>
+    Since we do not operate a cloud account database, your personal data is not stored on our servers. You have direct control over your data:
+  </p>
 
-      <div class="sdk-card">
-        <div class="sdk-header">
-          <span class="sdk-title">Unity Engine Runtime</span>
-          <span class="sdk-vendor-pill">Unity Technologies</span>
-        </div>
-        <p>
-          The Game client is built utilizing the Unity Engine. Unity may collect anonymous hardware diagnostics (graphics capabilities, CPU specifications) to ensure stable visual and audio execution on your device hardware. 
-          Learn more at the <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">Unity Privacy Policy</a>.
-        </p>
-      </div>
-    </section>
+  <h3>How to Erase Your In-Game Data:</h3>
+  <ol>
+    <li>Open your device's <strong>Settings</strong>.</li>
+    <li>Go to <strong>Apps</strong> (or <em>Application Manager</em>).</li>
+    <li>Select <strong>Arrow Puzzle</strong>.</li>
+    <li>Tap <strong>Storage &amp; cache</strong> &rarr; <strong>Clear Storage</strong> (or <em>Clear Data</em>).</li>
+  </ol>
+  <p>This permanently deletes your saved puzzle progress, hint balances, and local settings.</p>
 
-    <!-- Section 5 -->
-    <section id="section-5">
-      <h2><span class="sec-index">5</span> Google Play Data Safety Disclosures</h2>
-      <p>
-        In accordance with Google Play's mandatory Data Safety guidelines, the following table details our data handling disclosures:
-      </p>
+  <h3>How to Reset or Delete Your Advertising ID:</h3>
+  <ol>
+    <li>Open Android <strong>Settings</strong> &rarr; <strong>Google</strong> &rarr; <strong>All Services</strong>.</li>
+    <li>Select <strong>Ads</strong> (or <em>Ad privacy</em>).</li>
+    <li>Tap <strong>Reset advertising ID</strong> or <strong>Delete advertising ID</strong>.</li>
+  </ol>
 
-      <div class="table-container">
-        <table>
-          <thead>
-            <tr>
-              <th scope="col">Data Category</th>
-              <th scope="col">Collected?</th>
-              <th scope="col">Shared with 3rd Parties?</th>
-              <th scope="col">Operational Purpose</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><strong>Personal Identifiers</strong> (Name, Email, Phone)</td>
-              <td><span class="badge-pill badge-no">No</span></td>
-              <td><span class="badge-pill badge-no">No</span></td>
-              <td>Not Collected</td>
-            </tr>
-            <tr>
-              <td><strong>Financial Information</strong> (Card / Bank details)</td>
-              <td><span class="badge-pill badge-no">No</span></td>
-              <td><span class="badge-pill badge-no">No</span></td>
-              <td>Handled directly by Google Play</td>
-            </tr>
-            <tr>
-              <td><strong>Precise Location</strong> (GPS)</td>
-              <td><span class="badge-pill badge-no">No</span></td>
-              <td><span class="badge-pill badge-no">No</span></td>
-              <td>Not Collected</td>
-            </tr>
-            <tr>
-              <td><strong>Device Identifiers</strong> (GAID / Advertising ID)</td>
-              <td><span class="badge-pill badge-yes">Yes</span></td>
-              <td><span class="badge-pill badge-yes">Yes</span> (Google AdMob)</td>
-              <td>Advertising delivery, attribution &amp; fraud prevention</td>
-            </tr>
-            <tr>
-              <td><strong>App Performance &amp; Diagnostics</strong> (Crash logs, ANRs)</td>
-              <td><span class="badge-pill badge-yes">Yes</span></td>
-              <td><span class="badge-pill badge-yes">Yes</span> (Google Play)</td>
-              <td>Crash diagnostics &amp; technical performance optimization</td>
-            </tr>
-            <tr>
-              <td><strong>In-App Actions</strong> (Level progress, stars, hints)</td>
-              <td><span class="badge-pill badge-local">On-Device Only</span></td>
-              <td><span class="badge-pill badge-no">No</span></td>
-              <td>Game mechanics &amp; local progress retention</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+  <!-- Section 8 -->
+  <h2 id="section-8">8. European Union &amp; UK Privacy Rights (GDPR)</h2>
+  <p>
+    Under the General Data Protection Regulation (GDPR) and UK Data Protection Act 2018, users in the EEA and UK have the right to:
+  </p>
+  <ul>
+    <li>Request access to or a copy of any personal data processed.</li>
+    <li>Request erasure of personal data ("Right to be Forgotten").</li>
+    <li>Withdraw advertising consent at any time via in-game settings or device ad settings.</li>
+    <li>Lodge a complaint with your local Data Protection Authority.</li>
+  </ul>
 
-      <ul>
-        <li><strong>Encryption in Transit:</strong> All communication between your device and Google services utilizes industry-standard HTTPS / TLS encryption protocols.</li>
-        <li><strong>User-Initiated Data Erasure:</strong> Players have full authority to purge all stored gameplay data instantly via standard Android device settings or by reaching out to our support team.</li>
-      </ul>
-    </section>
+  <!-- Section 9 -->
+  <h2 id="section-9">9. California Consumer Privacy Rights (CCPA / CPRA)</h2>
+  <p>
+    Under the California Consumer Privacy Act (CCPA) and CPRA, California residents have the right to:
+  </p>
+  <ul>
+    <li><strong>No Sale of Data:</strong> We do not sell, rent, or trade your personal information.</li>
+    <li><strong>Right to Know &amp; Delete:</strong> You may request disclosure of any collected data and request its deletion.</li>
+    <li><strong>Non-Discrimination:</strong> We will not discriminate against you for exercising your privacy rights.</li>
+  </ul>
 
-    <!-- Section 6 -->
-    <section id="section-6">
-      <h2><span class="sec-index">6</span> Children's Privacy (COPPA &amp; GDPR-K Compliance)</h2>
-      <p>
-        Arrow Puzzle is designed as a family-friendly casual puzzle game. We adhere strictly to the 
-        <strong>Children's Online Privacy Protection Act (COPPA)</strong> and Article 8 of the European General Data Protection Regulation (GDPR-K).
-      </p>
-      <ul>
-        <li>We do <strong>not</strong> knowingly collect, harvest, or maintain personal information from children under the age of 13 (or under 16 in the European Union).</li>
-        <li>Advertising served via Google AdMob conforms to Google Play's Families Policy and strict content filtering standards.</li>
-        <li>If a parent or guardian discovers that their child has inadvertently transmitted personal data to us, please notify us immediately at <a href="mailto:support@arrowpuzzle.com">support@arrowpuzzle.com</a>. We will promptly delete such records from our systems.</li>
-      </ul>
-    </section>
+  <!-- Section 10 -->
+  <h2 id="section-10">10. Changes to This Privacy Policy</h2>
+  <p>
+    We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated "Effective Date". We encourage you to review this page periodically.
+  </p>
 
-    <!-- Section 7 -->
-    <section id="section-7">
-      <h2><span class="sec-index">7</span> Data Retention &amp; Data Deletion Rights</h2>
-      <p>
-        Because we do not operate a centralized cloud account database, your personal data is not retained on our remote servers. You have complete autonomy over your local data:
-      </p>
+  <!-- Section 11 -->
+  <h2 id="section-11">11. Contact Us &amp; Data Requests</h2>
+  <p>
+    If you have any questions or data deletion requests regarding this Privacy Policy, please contact:
+  </p>
+  <p>
+    <strong>Developer / Publisher:</strong> Wisaxis<br>
+    <strong>Application:</strong> Arrow Puzzle<br>
+    <strong>Package Identifier:</strong> <code>com.wisaxis.arrowpuzzle</code><br>
+    <strong>Email:</strong> <a href="mailto:support@arrowpuzzle.com">support@arrowpuzzle.com</a>
+  </p>
 
-      <h3>How to Erase All In-Game Data:</h3>
-      <div class="instruction-steps">
-        <ol>
-          <li>Open the Android <strong>Settings</strong> app on your device.</li>
-          <li>Navigate to <strong>Apps</strong> (or <em>Application Manager</em>).</li>
-          <li>Locate and tap <strong>Arrow Puzzle</strong> from your installed applications.</li>
-          <li>Tap <strong>Storage &amp; cache</strong> &rarr; <strong>Clear Storage</strong> (or <em>Clear Data</em>).</li>
-        </ol>
-      </div>
-      <p>
-        Executing this action permanently deletes all local puzzle save files, hint records, and cached configurations from your device.
-      </p>
-
-      <h3>How to Reset or Delete Your Google Advertising ID:</h3>
-      <div class="instruction-steps">
-        <ol>
-          <li>Open Android <strong>Settings</strong> &rarr; <strong>Google</strong> &rarr; <strong>All Services</strong>.</li>
-          <li>Select <strong>Ads</strong> (or <em>Ad privacy</em>).</li>
-          <li>Tap <strong>Reset advertising ID</strong> or <strong>Delete advertising ID</strong>.</li>
-        </ol>
-      </div>
-    </section>
-
-    <!-- Section 8 -->
-    <section id="section-8">
-      <h2><span class="sec-index">8</span> European Union &amp; UK Privacy Rights (GDPR)</h2>
-      <p>
-        Under the General Data Protection Regulation (EU Regulation 2016/679) and the UK Data Protection Act 2018, 
-        residents of the EEA and the United Kingdom enjoy specific statutory rights regarding their personal data:
-      </p>
-      <ul>
-        <li><strong>Right of Access &amp; Rectification:</strong> You are entitled to request confirmation of whether personal data is processed and obtain a copy.</li>
-        <li><strong>Right to Erasure ("Right to be Forgotten"):</strong> You have the right to request deletion of your information under qualifying conditions.</li>
-        <li><strong>Right to Withdraw Consent:</strong> You may alter or revoke advertising consent at any time via in-game consent settings or by resetting your device advertising identifier.</li>
-        <li><strong>Right to Lodge a Complaint:</strong> You have the legal right to submit a complaint to your national Data Protection Authority (DPA).</li>
-      </ul>
-    </section>
-
-    <!-- Section 9 -->
-    <section id="section-9">
-      <h2><span class="sec-index">9</span> California Consumer Privacy Rights (CCPA / CPRA)</h2>
-      <p>
-        Under the California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA), California residents are entitled to specific disclosures:
-      </p>
-      <ul>
-        <li><strong>We Do NOT Sell Personal Information:</strong> We do not sell, rent, or trade your personal information to third parties for monetary or other valuable consideration.</li>
-        <li><strong>Right to Know &amp; Delete:</strong> You have the right to request what personal data is processed and demand its permanent deletion.</li>
-        <li><strong>Non-Discrimination Guarantee:</strong> We will never discriminate against any player (by withholding hints, degrading performance, or charging different rates) for exercising their California privacy rights.</li>
-      </ul>
-    </section>
-
-    <!-- Section 10 -->
-    <section id="section-10">
-      <h2><span class="sec-index">10</span> Changes to This Privacy Policy</h2>
-      <p>
-        We may update this Privacy Policy periodically to reflect revisions in our game features, third-party SDK updates, or statutory legal obligations. 
-        Any modifications will be posted directly to this web page with a revised "Effective Date" at the top. 
-        We encourage you to review this page periodically to remain informed about our privacy safeguards.
-      </p>
-    </section>
-
-    <!-- Section 11 -->
-    <section id="section-11">
-      <h2><span class="sec-index">11</span> Contact Us &amp; Data Protection Inquiries</h2>
-      <p>
-        If you have any questions, comments, or data deletion inquiries regarding this Privacy Policy, please reach out directly to our dedicated support team:
-      </p>
-      
-      <div class="contact-card">
-        <div class="contact-row">
-          <span class="contact-label">Publisher / Developer</span>
-          <span class="contact-value">Wisaxis</span>
-        </div>
-        <div class="contact-row">
-          <span class="contact-label">Application</span>
-          <span class="contact-value">Arrow Puzzle</span>
-        </div>
-        <div class="contact-row">
-          <span class="contact-label">Package Identifier</span>
-          <span class="contact-value"><code>com.wisaxis.arrowpuzzle</code></span>
-        </div>
-        <div class="contact-row">
-          <span class="contact-label">Privacy Support Email</span>
-          <span class="contact-value"><a href="mailto:support@arrowpuzzle.com">support@arrowpuzzle.com</a></span>
-        </div>
-        <div class="contact-row" style="grid-column: 1 / -1;">
-          <span class="contact-label">Response Commitment</span>
-          <span class="contact-value" style="font-weight: 500; color: var(--text-body);">We endeavor to acknowledge and address all verified privacy inquiries within 48 business hours.</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-      <p>&copy; 2026 Wisaxis. All rights reserved.</p>
-      <p style="margin-top: 0.35rem;">Arrow Puzzle &bull; Package ID: <code>com.wisaxis.arrowpuzzle</code></p>
-      
-      <div class="footer-links">
-        <button class="btn-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" aria-label="Scroll back to top">
-          &uarr; Back to Top
-        </button>
-        <a href="mailto:support@arrowpuzzle.com">Contact Support</a>
-        <a href="https://ra5951451-commits.github.io/privacy-policy/">Official Policy Link</a>
-      </div>
-    </footer>
-
-  </main>
-</div>
-
-<div id="toast" role="status" aria-live="polite">Policy URL copied to clipboard!</div>
-
-<script>
-  function copyPolicyLink() {
-    const url = window.location.href || 'https://ra5951451-commits.github.io/privacy-policy/';
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(url).then(showToast).catch(() => {
-        fallbackCopy(url);
-      });
-    } else {
-      fallbackCopy(url);
-    }
-  }
-
-  function fallbackCopy(text) {
-    const input = document.createElement('input');
-    input.value = text;
-    document.body.appendChild(input);
-    input.select();
-    try {
-      document.execCommand('copy');
-      showToast();
-    } catch (e) {}
-    document.body.removeChild(input);
-  }
-
-  function showToast() {
-    const toast = document.getElementById('toast');
-    if (!toast) return;
-    toast.classList.add('show');
-    setTimeout(() => {
-      toast.classList.remove('show');
-    }, 2500);
-  }
-</script>
+  <footer>
+    <p>&copy; 2026 Wisaxis. All rights reserved. &bull; Package ID: com.wisaxis.arrowpuzzle</p>
+  </footer>
 
 </body>
 </html>
