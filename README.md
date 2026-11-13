@@ -10,3 +10,4 @@ Official Privacy Policy for **Arrow Puzzle** (`com.wisaxis.arrowpuzzle`) by **Wi
 ### Included Files
 - `index.html`: Fully rendered static web page ready for GitHub Pages hosting (compliant with Google Play Console requirements).
 - `privacy_policy.php`: Dynamic PHP template source file.
+# privacy-policy
